@@ -1,0 +1,21 @@
+/* general */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Fredoka', sans-serif;
+}
+
+.debug{
+  background-color: rgba(0, 0, 255, 0.25);
+  border: 1px solid black;  
+}
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
