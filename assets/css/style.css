@@ -58,24 +58,32 @@ body{
   padding: 10px;
 }
 
-.team-cards .card .black-box h3,
-.team-cards .card .black-box p{
+/* box con info e ombra */
+.team-cards .card .box{
+  background-color: #0f0e17;
+  box-shadow: 0px 0px 5px black;
+}
+
+
+.team-cards .card .box h3,
+.team-cards .card .box p{
   color: white;
 }
 
-.team-cards .card .black-box h3{
+.team-cards .card .box h3{
   text-transform: uppercase;
 }
 
-.team-cards .card .black-box a{
+.team-cards .card .box a{
   text-decoration: none;
+  color: #7cc4ff;
 }
 
-.team-cards .card .black-box{
-  background-color: #0f0e17;
+.team-cards .card .box a:hover{
+  color: white;
 }
 
-.team-cards .card .black-box .info{
+.team-cards .card .box .info{
   line-height: 33px;
   padding: 0 0 0 10px;
   float: left;
